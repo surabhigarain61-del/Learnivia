@@ -5,7 +5,7 @@ import { saveSession, logActivity } from '../services/storageService';
 import { Button } from './Button';
 import { MarkdownRenderer } from './MarkdownRenderer';
 import { QuizRunner } from './QuizRunner';
-import { FileText, CircleHelp, Layers, Upload, FileType, X, Plus, Wand2, Database, Clipboard, BookOpen, MessageSquare, Sparkles, Send, User, Sun, Moon, Crown, Settings, AlertTriangle, Globe, Youtube, LogIn } from 'lucide-react';
+import { FileText, HelpCircle, Layers, Upload, FileType, X, Plus, Wand2, Database, Clipboard, BookOpen, MessageSquare, Sparkles, Send, User, Sun, Moon, Crown, Settings, AlertTriangle, Globe, Youtube, LogIn } from 'lucide-react';
 import { v4 as uuidv4 } from 'uuid';
 import { Chat } from '@google/genai';
 import { LANGUAGES } from '../constants';
