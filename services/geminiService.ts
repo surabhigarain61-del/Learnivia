@@ -3,8 +3,7 @@ import { StudyMode, UserStats, StudyFile, StudySession } from "../types";
 import { PROMPTS, SYSTEM_INSTRUCTION_CHAT, INSIGHTS_PROMPT, REVISION_PROMPT, EXAM_MODE_PROMPT } from "../constants";
 
 // Initialize AI Client
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
-
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY });
 // Hybrid Model Strategy
 const FLASH_MODEL = 'gemini-2.5-flash';
 const PRO_MODEL = 'gemini-3-pro-preview';
